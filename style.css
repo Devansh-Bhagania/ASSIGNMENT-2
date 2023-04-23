@@ -1,0 +1,213 @@
+*{
+    margin:0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+::-webkit-scrollbar-track
+{
+	border: 5px solid white;
+	/* // border color does not support transparent on scrollbar */
+	border-color: transparent;
+	background-color: #b2bec3;
+}
+
+::-webkit-scrollbar
+{
+	width: 15px;
+	background-color: #dfe6e9;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #74b9ff;
+	border-radius: 0;
+}
+
+
+body{
+    background: #b92b27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.hr{
+    padding:12px;
+    border-top: 6px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:transparent;
+}
+nav{
+    margin:auto;
+    background-color: transparent;
+    padding:14px 13px;
+}
+
+a{
+    padding:13px 26px;
+    font-weight: 300;
+    color:white;
+    text-decoration: none;
+    font-size:2.3em;
+}
+
+a:hover{
+    color:#549de7;
+}
+.fa{
+    font-size:30px;
+    float:right;
+}
+
+.movie1{
+    display:flex;
+    gap: 1rem;   
+    background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+
+    height:60vh;
+    width:85%;
+    text-align:center;
+    margin:auto;
+    margin-top:50px;
+    border-radius: 13px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pic1{
+    background-color: #1565C0;
+    background-image: url('john-wick.jpg');
+    background-position-x: right;
+    background-size:contain;
+    /* background-position-x: 12px; */
+    margin:auto;
+    height:350px;
+    width:249px;
+    border-radius: 13px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pic1:hover{
+    transform:scale(1.1);
+    transition-duration: 3s;
+    transition-timing-function: ease;
+}
+
+.pic2{
+    background-color: #1565C0;
+    background-image: url('avatar2.jpg');
+    background-position-x: -20px;
+    background-size:cover;
+    /* background-position-x: 12px; */
+    margin:auto;
+    height:350px;
+    width:249px;
+    border-radius: 13px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pic2:hover{
+    transform:scale(1.1);
+    transition-duration: 3s;
+    transition-timing-function: ease;
+} 
+
+.pic3{
+    background-color: #1565C0;
+    background-image: url('gog.jpg');
+    background-position-x: -20px;
+    background-size:cover;
+    /* background-position-x: 12px; */
+    margin:auto;
+    height:350px;
+    width:249px;
+    border-radius: 13px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pic3:hover{
+    transform:scale(1.1);
+    transition-duration: 3s;
+    transition-timing-function: ease;
+}
+
+.pic4{
+    background-color: #1565C0;
+    background-image: url('varisu1.jpg');
+    background-size:cover;
+    /* background-position-x: 12px; */
+    margin:auto;
+    height:350px;
+    width:249px;
+    border-radius: 13px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pic4:hover{
+    transform:scale(1.1);
+    transition-duration: 3s;
+    transition-timing-function: ease;
+}
+
+.pic5{
+    background-color: #1565C0;
+    background-image: url('rrr1.jpg');
+    background-size:cover;
+    /* background-position-x: 12px; */
+    margin:auto;
+    height:350px;
+    width:249px;
+    border-radius: 13px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pic5:hover{
+    transform:scale(1.1);
+    transition-duration: 3s;
+    transition-timing-function: ease;
+}
+.para{
+    background-color: #1565C0;
+    margin:auto;
+    height:350px;
+    width:750px;
+    border-radius: 13px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1{
+    font-size:2.3rem;
+    display:block;
+    color:white;
+    text-align: left;
+    margin-left:35px;
+    margin-top:27px;
+    margin-bottom: 15px;
+}
+
+.content{
+    text-align: left;
+    color:white;
+    font-size:24px;
+    font-weight: 300;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left:35px;
+    margin-top:17px;
+    overflow-y:scroll;
+    height:250px;
+    margin-right:12px;
+    
+}
+
+footer{
+    background:transparent;
+    text-align:center;
+    font-size:30px;
+    color:white;
+    padding:20px;
+}
